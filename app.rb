@@ -8,7 +8,7 @@ class App < Sinatra::Base
   end
 
   get '/hello' do
-    "Hello World!"
+    <h1>"Hello World!"</h1>
   end
 
   # This is a sample dynamic route.
