@@ -6,7 +6,7 @@ class App < Sinatra::Base
   get '/' do
     "This is the Homepage."
   end
-  
+
   get '/hello' do
     "Hello World!"
   end
@@ -26,7 +26,7 @@ class App < Sinatra::Base
   get '/multiply/:num1/:num2' do
     @first_number = params[:num1]
     @second_number = params[:num2]
-    
+
   end
 
 end
